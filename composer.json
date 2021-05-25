@@ -1,0 +1,21 @@
+{
+    "name": "lwei/lwei-wechat",
+    "description": "微信相关服务",
+    "type": "library",
+    "keywords": ["lwei", "lwei-wechat"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lwei",
+            "email": "1750433663@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "lweiWechat\\": "src/"
+        }
+    }
+}
