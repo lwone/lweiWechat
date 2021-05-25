@@ -10,8 +10,6 @@ use EasyWeChat\Factory;
  */
 class OfficialAccounts
 {
-
-
     public function __construct($config)
     {
         $this->wechat = Factory::officialAccount($config);
