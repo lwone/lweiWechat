@@ -1,8 +1,9 @@
 {
     "name": "lwei/lwei-wechat",
-    "description": "微信相关服务 梁玮专属自用",
+    "description": "微信相关服务",
     "type": "library",
     "keywords": ["lwei", "lwei-wechat"],
+    "homepage": "https://github.com/lwone/lweiWechat.git",
     "license": "MIT",
     "authors": [
         {
