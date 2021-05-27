@@ -9,8 +9,10 @@ class lweiWechatServiceProvider extends Service
 {
     public function register(): void
     {
-        // api - 小程序 - 授权登录
+        // api - 测试存在
         $this->app->route->post('wechat/hello', Login::class . '@hello');
+        // api - 小程序 - 授权登录
+        $this->app->route->post('wechat/mini', Login::class . '@mini');
     }
 
     public function boot(): void
